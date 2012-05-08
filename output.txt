@@ -1,0 +1,32 @@
+kpl@billybob:~/apprentice/stock$ rvm use 1.9.3
+Using /usr/share/ruby-rvm/gems/ruby-1.9.3-p194
+kpl@billybob:~/apprentice/stock$ ./stock.rb aapl
+
+
+HTTP Status: Request succeeded
+
+Symbol:      AAPL (Nasdaq)
+Company:     Apple Inc.
+Last price:  $569.48
+Volume:      16439031 shares
+Mkt Cap:     $532499.08B
+Change:      0.75%
+URL:         http://www.google.com/finance?client=ig&q=AAPL
+
+
+kpl@billybob:~/apprentice/stock$ ./stock.rb luv
+
+
+HTTP Status: Request succeeded
+
+Symbol:      LUV (NYSE)
+Company:     Southwest Airlines Co.
+Last price:  $8.26
+Volume:      8359058 shares
+Mkt Cap:     $6341.07B
+Change:      1.98%
+URL:         http://www.google.com/finance?client=ig&q=LUV
+
+
+kpl@billybob:~/apprentice/stock$ 
+
